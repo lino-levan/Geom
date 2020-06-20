@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src = "main.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex flex-row-reverse bd-highligh">
+      <form action = "test">
+        <input type="submit" class="btn btn-dark" value = "Sign In"/>
+      </form>
+    </nav>
+    <form class="form-inline mt-3">
+      <div class="form-group mx-sm-3 mb-2">
+       <input type="Command" class="form-control" id="inputCommand" placeholder="Command">
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+       <input type="Output" class="form-control" id="inputOutput" placeholder="Output">
+      </div>
+      <button type="submit" class="btn btn-dark mb-2" onclick="send_new_command()" >Submit</button>
+    </form>
+  </body>
+</html>
